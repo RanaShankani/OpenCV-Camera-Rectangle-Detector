@@ -4,9 +4,9 @@ This repository contains Python code that demonstrates real-time webcam video pr
 * Python installed on your machine
 * OpenCV library installed (pip install opencv-python)
 ## 2. Usage
-### 1. Clone the repository to your local machine.
-### 2. Open the script file, Real-Time-Webcam-Video-Processing-with-OpenCV.py, in a text editor or integrated development environment (IDE) of your choice.
-### 3. Make sure you have a webcam connected to your machine.
+#### 1. Clone the repository to your local machine.
+#### 2. Open the script file, Real-Time-Webcam-Video-Processing-with-OpenCV.py, in a text editor or integrated development environment (IDE) of your choice.
+#### 3. Make sure you have a webcam connected to your machine.
 
 ### 1. Features:
 * Real-time video processing from the webcam
