@@ -7,6 +7,14 @@ This repository contains Python code that demonstrates real-time webcam video pr
 #### 1. Clone the repository to your local machine.
 #### 2. Open the script file, Real-Time-Webcam-Video-Processing-with-OpenCV.py, in a text editor or integrated development environment (IDE) of your choice.
 #### 3. Make sure you have a webcam connected to your machine.
+Run the script by executing the following command:
+Copy
+python webcam_rectangle_detector.py
+
+A new window will open showing the webcam feed with any detected rectangles.
+Press the 'A' key to add a rectangle to the video feed.
+Press the 'Q' key to quit the script and close the windows.
+
 
 ### 1. Features:
 * Real-time video processing from the webcam
