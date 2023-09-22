@@ -1,5 +1,13 @@
 # Real-Time-Webcam-Video-Processing-with-OpenCV
 This repository contains Python code that demonstrates real-time webcam video processing using OpenCV, a popular computer vision library. The code captures frames from the webcam, allows the user to add rectangles to the frame, and displays the modified frame with the added rectangles. The rectangles are positioned based on the available space in the frame, and their coordinates are calculated using the provided dimensions and gap values.
+### 1. Prerequisites
+* Python installed on your machine
+* OpenCV library installed (pip install opencv-python)
+### 2. Usage
+# 1. Clone the repository to your local machine.
+# 2. Open the script file, Real-Time-Webcam-Video-Processing-with-OpenCV.py, in a text editor or integrated development environment (IDE) of your choice.
+# 3. Make sure you have a webcam connected to your machine.
+
 ### 1. Features:
 * Real-time video processing from the webcam
 * Adding rectangles to the frame
