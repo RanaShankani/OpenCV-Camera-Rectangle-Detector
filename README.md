@@ -1,26 +1,40 @@
-# Real-Time-Webcam-Video-Processing-with-OpenCV
-This repository contains Python code that demonstrates real-time webcam video processing using OpenCV, a popular computer vision library. The code captures frames from the webcam, allows the user to add rectangles to the frame, and displays the modified frame with the added rectangles. The rectangles are positioned based on the available space in the frame, and their coordinates are calculated using the provided dimensions and gap values.
-## 1. Prerequisites
+# OpenCV Camera Rectangle Detector
+This script utilizes the OpenCV library to access a camera device, such as a webcam, and detect rectangles in real-time video frames. However, it can be easily modified to work with any other camera. It allows you to dynamically add rectangles to the video feed by pressing the 'A' key. The script calculates the optimal number of rectangles that can fit in the frame based on its size.
+## Prerequisites
 * Python installed on your machine
 * OpenCV library installed (pip install opencv-python)
-## 2. Usage
+## Usage
 #### 1. Clone the repository to your local machine.
 #### 2. Open the script file, Real-Time-Webcam-Video-Processing-with-OpenCV.py, in a text editor or integrated development environment (IDE) of your choice.
-#### 3. Make sure you have a webcam connected to your machine.
-#### 4. Run the script by executing the following command:
+#### 3. Customize the following parameters based on your requirements:
+
+* frame_width and frame_height:
+  These parameters initialize the desired width and height of the video frame. You can modify these values to adjust the size of the displayed video frame.
+
+* rectangle_width and rectangle_height:
+  These parameters initialize the width and height of the rectangles that will be drawn on the video frame. Adjust these values to change the size of the rectangles.
+
+* initial_gap_between_rectangles_height and initial_gap_between_rectangles_width:
+  These parameters set the initial gap (in pixels) between the rectangles in the vertical and horizontal directions, respectively. Modify these values to change the initial spacing between the rectangles.
+
+* gap_to_frame_sides_height and gap_to_frame_sides_width:
+  These parameters determine the gap (in pixels) between the rectangles and the sides of the frame in the vertical and horizontal directions, respectively. Adjust these values to define the spacing between the rectangles and the frame edges.
+  
+#### 4. Make sure you have a webcam connected to your machine.
+#### 5. Run the script by executing the following command:
 `(https://github.com/RanaShankani/Real-Time-Webcam-Video-Processing-with-OpenCV.git)`
-#### 5. A new window will open showing the webcam feed with any detected rectangles.
-#### 6. Press the 'A' key to add a rectangle to the video feed.
-#### 7. Press the 'Q' key to quit the script and close the windows.
+#### 6. A new window will open showing the webcam feed with any detected rectangles.
+#### 7. Press the 'A' key to add a rectangle to the video feed.
+#### 8. Press the 'Q' key to quit the script and close the windows.
 
 
-### 3. Features:
+### Features:
 * Real-time video processing from the webcam
 * Adding rectangles to the frame
 * Automatic positioning of rectangles based on available space
 * Keyboard input for user interaction
 * Modular functions for drawing rectangles and calculating positions
-### 4. Potential Applications:
+### Potential Applications:
 * Object detection: Modify the code to perform real-time object detection using pre-trained models like YOLO or SSD.
 * Face detection and recognition: Integrate face detection and recognition algorithms for identification and personalized experiences.
 * Augmented Reality (AR): Overlay virtual objects or effects onto the webcam feed for interactive AR experiences.
