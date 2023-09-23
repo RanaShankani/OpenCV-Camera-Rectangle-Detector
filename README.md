@@ -39,11 +39,16 @@ This script utilizes the OpenCV library to access a camera device, such as a web
   
 #### 4. Make sure you have a webcam connected to your machine.
 #### 5. Run the script by executing the following command:
-`(https://github.com/RanaShankani/OpenCV-Camera-Rectangle-Detector.git)`
+`python OpenCV-Camera-Rectangle-Detector.py`
 #### 6. A new window will open showing the webcam feed with any detected rectangles.
 #### 7. Press the 'A' key to add a rectangle to the video feed.
 #### 8. Press the 'Q' key to quit the script and close the windows.
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Contributing
+If you would like to contribute to this project, you can fork the repository and create a pull request with your changes. Please follow the contributing guidelines and adhere to the code of conduct.
 
-
+Contact
+If you have any questions or suggestions, feel free to contact the project maintainer at rana.shk.nz@gmail.com
