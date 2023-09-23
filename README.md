@@ -1,11 +1,28 @@
 # OpenCV Camera Rectangle Detector
 This script utilizes the OpenCV library to access a camera device, such as a webcam, and detect rectangles in real-time video frames. However, it can be easily modified to work with any other camera. It allows you to dynamically add rectangles to the video feed by pressing the 'A' key. The script calculates the optimal number of rectangles that can fit in the frame based on its size.
+
+## Features:
+* Real-time video processing from the webcam
+* Adding rectangles to the frame
+* Automatic positioning of rectangles based on available space
+* Keyboard input for user interaction
+* Modular functions for drawing rectangles and calculating positions
+
+## Potential Applications:
+* Object detection: Modify the code to perform real-time object detection using pre-trained models like YOLO or SSD.
+* Face detection and recognition: Integrate face detection and recognition algorithms for identification and personalized experiences.
+* Augmented Reality (AR): Overlay virtual objects or effects onto the webcam feed for interactive AR experiences.
+* Pose estimation: Detect and track human poses in real-time, visualizing joints or providing visual feedback.
+* Motion detection and tracking: Track moving objects by comparing consecutive frames, visualizing them with rectangles.
+* Gesture recognition: Recognize hand gestures in real-time, visualizing them or providing user feedback.
+* Human-Computer Interaction: Create interactive systems where user actions or gestures control applications or games.
+  
 ## Prerequisites
 * Python installed on your machine
 * OpenCV library installed (pip install opencv-python)
 ## Usage
 #### 1. Clone the repository to your local machine.
-#### 2. Open the script file, Real-Time-Webcam-Video-Processing-with-OpenCV.py, in a text editor or integrated development environment (IDE) of your choice.
+#### 2. Open the script file OpenCV-Camera-Rectangle-Detector.py in a text editor or integrated development environment (IDE) of your choice.
 #### 3. Customize the following parameters based on your requirements:
 
 * frame_width and frame_height:
@@ -22,23 +39,11 @@ This script utilizes the OpenCV library to access a camera device, such as a web
   
 #### 4. Make sure you have a webcam connected to your machine.
 #### 5. Run the script by executing the following command:
-`(https://github.com/RanaShankani/Real-Time-Webcam-Video-Processing-with-OpenCV.git)`
+`(https://github.com/RanaShankani/OpenCV-Camera-Rectangle-Detector.git)`
 #### 6. A new window will open showing the webcam feed with any detected rectangles.
 #### 7. Press the 'A' key to add a rectangle to the video feed.
 #### 8. Press the 'Q' key to quit the script and close the windows.
 
 
-### Features:
-* Real-time video processing from the webcam
-* Adding rectangles to the frame
-* Automatic positioning of rectangles based on available space
-* Keyboard input for user interaction
-* Modular functions for drawing rectangles and calculating positions
-### Potential Applications:
-* Object detection: Modify the code to perform real-time object detection using pre-trained models like YOLO or SSD.
-* Face detection and recognition: Integrate face detection and recognition algorithms for identification and personalized experiences.
-* Augmented Reality (AR): Overlay virtual objects or effects onto the webcam feed for interactive AR experiences.
-* Pose estimation: Detect and track human poses in real-time, visualizing joints or providing visual feedback.
-* Motion detection and tracking: Track moving objects by comparing consecutive frames, visualizing them with rectangles.
-* Gesture recognition: Recognize hand gestures in real-time, visualizing them or providing user feedback.
-* Human-Computer Interaction: Create interactive systems where user actions or gestures control applications or games.
+
+
